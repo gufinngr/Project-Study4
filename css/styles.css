@@ -1,0 +1,117 @@
+body{
+    background-color: #d9e1ff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main-container{
+    background-color: #fff;
+    width: 370px;
+    height: 650px;
+    display: flex;
+    display: block;    
+    margin: 10px auto;
+    border-radius: 1rem;
+    box-shadow: 0px 15px 30px #00000022;
+}
+
+.container{
+    text-align: center;
+}
+
+.banner-container img{
+    width: 100%;
+    max-width: 370px;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    
+}
+
+.container h2{
+    color: #204066;
+    font-weight: bolder;
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+.container p{
+    text-align: center;
+    width: 100%;
+    max-width: 330px;
+    font-size: 15px;
+    margin: 0 auto;
+    color: #20406699;
+    margin-bottom: 15px;
+    
+    
+}
+
+.plan{
+    display: flex;
+    background-color: #d9e1ff77;
+    padding: 15px;
+    margin: 30px;
+    border-radius: 1rem;
+    padding-top: 25px;
+}
+
+.plan .price{
+    margin-top: 25px;
+    margin-left: -121px;
+    font-weight: lighter;
+    color: #20406699;
+}
+
+.plan .change{
+    margin-top: 14px;
+    text-align: right;
+    
+}
+
+.plan p{
+    font-weight: bold;
+    color: #204066;
+}
+
+.plan img{
+    width: 50px;
+    height: 50px;
+}
+
+.plan a{
+    list-style: none;
+    text-decoration: none;
+    color: #421fa4;
+
+}
+
+.inputs input{
+    display: block;
+    width: 290px;
+    margin: 15px auto;
+    padding: 12px;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.inputs input[type=submit]{
+    background-color: #421fa4;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 13px;
+    box-shadow: 0px 5px 20px #1054;
+    transition: 0.5s;
+}
+
+.inputs input[type=reset]{
+    color: #204066;
+    font-weight: bolder;
+
+}
+
+.inputs input[type=submit]:hover{
+    background-color: #421fa477;
+}
